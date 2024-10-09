@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Gamja+Flower&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#hero .hero-content .container-btn{
+    text-align: center;
+}
+.btn{
+    padding: 10px 15px 10px 15px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 3px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+#hero{
+    height: 450px;
+    background-image: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+#hero .hero-content{
+    width: 501px;
+}
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 12px;
+}
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+
+#card-box{
+    width: 646px;
+    margin: 100px auto;
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+.card-container{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-family: Work Sans;
+}
+.card{
+    max-width: 207px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 207px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#footer-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#footer-section #follow{
+    position: absolute;
+    width: 946px;
+    height: 328px;
+    background-image: linear-gradient(45.00deg, rgb(255, 252, 252) -19.5%,rgba(255, 250, 250, 0.808) 100%),url("../assets/social-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+#follow .follow-main-div{
+    width: 406px;
+    justify-content: center;
+    text-align: center;
+
+} 
+#follow .follow-main-div .follow-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 12px 0;
+}
+#follow .follow-main-div .follow-subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    /* text-align: left; */
+}
+#follow .follow-main-div .follow-followon{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+/* Section Good food Starts here */
+
+
+#sec-good-food .good-food-container .good-food-img{
+    width: 470px;
+    height: 328px; ;
+    background-image: url("../assets/foods.png");
+}
+.good-food-content{
+    width: 406px ;
+    height: 195px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+    
+    margin: 66px 38px;
+}
+#sec-good-food .good-food-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 66px 37px;    
+}
+.good-food-container .good-food-content .good-food-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 11px ;
+}
+.good-food-container .good-food-content .good-food-subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 38px;
+}
+.good-food-container .good-food-content .good-food-follow{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* Section Good food End here */
